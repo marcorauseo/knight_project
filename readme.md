@@ -23,3 +23,10 @@ Abbiamo aggiunto un parser per recuperare il json e separare il tipo di comando
 start move rotate dalle cordinate x e y.
 
 
+//-----PER FARLO GIRARE SU DOCKER---//
+Scaricare progetto dal repository e da bash nella root del progetto lanciare:
+
+
+docker build -t knight-board .
+
+docker run --rm knight-board
