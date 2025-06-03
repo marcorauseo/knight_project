@@ -44,19 +44,19 @@
 
         <plugins>
 
-            <!-- JAR avviabile con tutte le dipendenze -->
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.6.0</version>
 
                 <configuration>
-                    <!-- include tutte le dipendenze -->
+
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
 
-                    <!-- manifest con la Main class -->
+
                     <archive>
                         <manifest>
                             <mainClass>app.Main</mainClass>
