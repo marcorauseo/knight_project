@@ -1,0 +1,2 @@
+BOARD_API: https://storage.googleapis.com/jobrapido-backend-test/board.json
+COMMANDS_API: https://storage.googleapis.com/jobrapido-backend-test/commands.json
